@@ -329,8 +329,6 @@ if params:
                       ha='left', va='center', color='#fa3434')
     axs['title'].text(0.99, 0.65, f'{jugador2}', fontsize=25,
                       ha='right', va='center', color='#4b7afa')
-    axs['title'].text(0.50, 0.65, 'Estadísticas por 90', fontsize=25,
-                      ha='center', va='center', color='#ffffff')
 
     fig.set_facecolor('#121212')
     st.pyplot(fig)
