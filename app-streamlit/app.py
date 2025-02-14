@@ -24,9 +24,9 @@ URL5 = ('https://raw.githubusercontent.com/google/fonts/main/apache/robotoslab/'
 robotto_bold = FontManager(URL5)
 
 # Cargar datos
-df_copa_2024 = pd.read_csv('Argentina Copa de la Liga 2024.csv')
-df_lpf_2024 = pd.read_csv('Argentina LPF 2024.csv')
-df_reserva_2024 = pd.read_csv('Argentina Reserve League 2024.csv')
+df_copa_2024 = pd.read_csv(./'Argentina Copa de la Liga 2024.csv')
+df_lpf_2024 = pd.read_csv(./'Argentina LPF 2024.csv')
+df_reserva_2024 = pd.read_csv(./'Argentina Reserve League 2024.csv')
 
 # Agregar el nombre de la liga al final de cada jugador
 df_copa_2024["Player"] = df_copa_2024["Player"] + " (Copa de la Liga)"
