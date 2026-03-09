@@ -24,6 +24,6 @@ Suponiendo que Rosario Central quiere determinar una posición en la cual reforz
 
 #### La posición donde el percentil del mejor jugador es más bajo es: Extremo (percentil 73.64%) POTENCIAL POSICIÓN A REFORZAR
 
-De lo que se encarga esta parte del algoritmo, es determinar en que perfil o posición según los parámetros establecidos para cada una,, nuestro mejor jugador en dicha posición se encuentra más bajo en comparación con el resto. Para esto utilizamos percentiles en lugar de posiciones en un ranking ya que el número de jugadores por posición cambia notablemente.
+De lo que se encarga esta parte del algoritmo, es determinar en que perfil o posición según los parámetros establecidos para cada una, nuestro mejor jugador en dicha posición se encuentra más bajo en comparación con el resto de la liga. Para esto utilizamos percentiles en lugar de posiciones en un ranking ya que el número de jugadores por posición cambia notablemente.
 
-Teniendo en cuenta los mismos parámetros para la evaluación de jugadores por perfil o puesto utilizados anteriormente y la aplicación de filtros según las necesidades del club, el algoritmo crea una lista con los cinco jugadores mejor rankeados por posición. 
+Teniendo en cuenta los mismos parámetros para la evaluación de jugadores por perfil o puesto utilizados anteriormente y la aplicación de filtros según las necesidades del club, el algoritmo crea una lista con los cinco jugadores mejor rankeados por posición y diferentes visualizaciones para indagar en ello. 
