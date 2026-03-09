@@ -12,7 +12,7 @@ Minutos disputados.
 Los mismos pueden variar según la liga, en el ejemplo básico el filtro de nacionalidad no se aplica a la LPF 2024 ya que es la liga en la que se encuentra el club desde el que realizamos la búsqueda. Se intuye que no habría inconvenientes relacionados con la nacionalidad en ese caso.
 
 ## Rosario Central y un caso ficticio
-Suponiendo que Rosario Central quiere determinar una posición en la cual reforzarse, establece para cada perfil de jugador una serie de métricas que considera óptimas para evaluar su rendimiento. Entendiendo que no todas tienen la misma relevancia, asigna un peso particular para cada una. Entonces, luego de aplicar el modelo que será explicado luego recibe un mensaje como este:
+Suponiendo que Rosario Central quiere determinar una posición en la cual reforzarse, establece para cada perfil de jugador una serie de métricas que considera óptimas para evaluar su rendimiento. Entendiendo que no todas tienen la misma relevancia, asigna un peso particular para cada una. Entonces, al aplicar el modelo que será explicado luego recibe un mensaje como este:
 
 ### Percentiles de los mejores jugadores de mi equipo por posición (comparando con jugadores de la misma liga):
 #### En la posición Defensa Central, el mejor jugador está en el percentil: 96.45%
